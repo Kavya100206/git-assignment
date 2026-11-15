@@ -72,3 +72,30 @@ git push -u origin main
 
 git push origin feature
 -> Pushes the feature branch to GitHub.
+
+git switch main
+-> Switches back to the main branch.
+
+git switch feature
+-> Switches to the feature branch.
+
+git add about.html
+-> Stages changes made to about.html.
+
+echo "<p>Welcome to my site</p>" >> index.html
+-> Appends welcome text to index.html.
+
+echo "<p>Feature content</p>" >> about.html
+-> Appends feature content to about.html.
+
+echo "<p>extra</p>" >> index.html
+-> Appends extra content to index.html.
+
+mkdir temp
+-> Creates a temporary directory.
+
+echo test > temp/a.txt
+-> Creates a test file inside temp.
+
+echo test > debug.log
+-> Creates a log file to test .gitignore.
